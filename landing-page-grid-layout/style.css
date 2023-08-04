@@ -8,7 +8,7 @@ body {
     height: 100vh; /* fallback for lvh height below */
     height: 100lvh;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
     font-family: sans-serif;
@@ -18,34 +18,34 @@ body {
 /* top left */
 .grid-box:nth-of-type(1) {
     grid-row: 1 / 3;
-    grid-column: 1 / 5;
+    grid-column: 1 / 10;
     background-color: #efefef;
 }
 
 /* top right */
 .grid-box:nth-of-type(2) {
     grid-row: 1 / 3;
-    grid-column: 5 / -1;
+    grid-column: 10 / -1;
     background-color: #74dd82;
 }
 
 /* bottom left */
 .grid-box:nth-of-type(3) {
     grid-row: 3 / -1;
-    grid-column: 1 / 3;
+    grid-column: 1 / 6;
     background-color: #7bbdf3;
 }
 
 /* bottom middle */
 .grid-box:nth-of-type(4) {
     grid-row: 3 / -1;
-    grid-column: 3 / 6;
+    grid-column: 6 / 12;
     background-color: #f0e086;
 }
 
 /* bottom right */
 .grid-box:nth-of-type(5) {
     grid-row: 3 / -1;
-    grid-column: 6 / -1;
+    grid-column: 12 / -1;
     background-color: #cc83ee;
 }
