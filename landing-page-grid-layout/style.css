@@ -21,6 +21,10 @@ body {
     grid-column: 1 / 10;
     padding: 6rem;
     background-color: #efefef;
+    background-image: url("./images/table-clock-lamp.min.jpg");
+    background-position-y: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* top right */
@@ -49,4 +53,14 @@ body {
     grid-row: 3 / -1;
     grid-column: 12 / -1;
     background-color: #cc83ee;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
 }
