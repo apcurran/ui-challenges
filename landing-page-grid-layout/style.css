@@ -108,3 +108,25 @@ h1 {
         line-height: 1.6;
     }
 }
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    border: none;
+    background: none;
+
+    & a {
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.25rem;
+        color: #000;
+        letter-spacing: .5rem;
+    }
+
+    & svg {
+        width: 3.5rem;
+    }
+}
