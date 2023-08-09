@@ -3,24 +3,28 @@
 }
 
 :root {
-    --fz-xl: 3rem;
+    --fz-m: 1.125rem;
+    --fz-l: 1.25rem;
+    --fz-xl: 2rem;
+    --fz-xxl: 3rem;
 }
 
 body {
     padding: 0;
     margin: 0;
-    height: 100vh; /* fallback for lvh height below */
+    height: 100vh;
+    /* fallback for lvh height below */
     height: 100lvh;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
-    font-family: sans-serif;
-    font-size: 1.125rem;
+    font-family: "Raleway", sans-serif;
+    font-size: var(--fz-m);
 }
 
 h1 {
-    font-size: var(--fz-xl);
+    font-size: var(--fz-xxl);
 }
 
 .uppercase {
@@ -86,7 +90,7 @@ h1 {
     color: #fff;
     text-decoration: none;
     padding: 1rem;
-    font-size: 1.25rem;
+    font-size: var(--fz-l);
     font-weight: 700;
 }
 
@@ -96,7 +100,7 @@ h1 {
     padding: 0;
 
     & a {
-        font-size: 2rem;
+        font-size: var(--fz-xl);
         letter-spacing: .25rem;
     }
 }
@@ -116,12 +120,13 @@ h1 {
     padding: 0;
     border: none;
     background: none;
+    cursor: pointer;
 
     & a {
-        font-size: 2rem;
+        font-size: var(--fz-xl);
         text-transform: uppercase;
         text-decoration: none;
-        padding: 1.25rem;
+        padding: 1.25rem 0;
         color: #000;
         letter-spacing: .5rem;
     }
