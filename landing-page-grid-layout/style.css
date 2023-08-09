@@ -81,6 +81,26 @@ h1 {
     list-style: none;
 }
 
+.nav-list a,
+.nav-home a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.nav-home {
+    background: none;
+    border: none;
+    padding: 0;
+
+    & a {
+        font-size: 2rem;
+        letter-spacing: .25rem;
+    }
+}
+
 .grid-section {
     padding: 3rem;
 
