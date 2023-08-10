@@ -152,4 +152,8 @@ h1 {
         grid-row: auto;
         grid-column: 1;
     }
+
+    .grid-section p {
+        font-size: var(--fz-l);
+    }
 }
