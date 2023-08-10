@@ -118,12 +118,12 @@ h1 {
     border: none;
     background: none;
     cursor: pointer;
-    
+
     & a {
         display: flex;
         align-items: center;
         gap: 1rem;
-        
+
         font-size: var(--fz-xl);
         text-transform: uppercase;
         text-decoration: none;
@@ -134,5 +134,42 @@ h1 {
 
     & svg {
         width: 3.5rem;
+    }
+}
+
+@media (width <=30em) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    /* top left */
+    .grid-box:nth-of-type(1) {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    /* top right */
+    .grid-box:nth-of-type(2) {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    /* bottom left */
+    .grid-box:nth-of-type(3) {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    /* bottom middle */
+    .grid-box:nth-of-type(4) {
+        grid-row: auto;
+        grid-column: 1;
+    }
+
+    /* bottom right */
+    .grid-box:nth-of-type(5) {
+        grid-row: auto;
+        grid-column: 1;
     }
 }
