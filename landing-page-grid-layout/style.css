@@ -141,6 +141,7 @@ h1 {
     body {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
+        grid-auto-rows: 100lvh;
     }
 
     .grid-box:nth-of-type(1),
