@@ -149,6 +149,10 @@ h1 {
         grid-auto-rows: 80lvh;
     }
 
+    h1 {
+        font-size: var(--fz-xl);
+    }
+
     .nav {
         flex-direction: column;
         gap: 1rem;
@@ -165,6 +169,9 @@ h1 {
     .nav-list a,
     .nav-home a {
         padding: 1rem;
+    }
+    
+    .nav-list a {
         font-size: var(--fz-m);
     }
 
@@ -184,5 +191,15 @@ h1 {
     .grid-section p {
         margin-top: 1rem;
         font-size: var(--fz-l);
+    }
+
+    .cta-button {
+        & span {
+            font-size: var(--fz-l);
+        }
+
+        & svg {
+            width: 2.5rem;
+        }
     }
 }
