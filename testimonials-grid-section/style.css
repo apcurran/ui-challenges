@@ -6,4 +6,12 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    display: grid;
+}
+
+.wrapper {
+    width: min(90%, 50rem);
+    display: grid;
+    place-self: center;
 }
