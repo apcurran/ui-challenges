@@ -25,11 +25,13 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
 
-    width: min(90%, 100rem);
+    width: min(90%, 90rem);
 }
 
 article {
     padding: 2rem;
+    border-radius: 10px;
+
     background-color: #fff;
     color: #fff;
 }
