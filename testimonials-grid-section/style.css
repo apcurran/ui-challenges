@@ -6,8 +6,14 @@
 
 :root {
     --clr-purple: #7e22ce;
+    --clr-purple-light: #c084fc;
     --clr-slate-mid: #475569;
     --clr-slate-dark: #1e293b;
+}
+
+img {
+    display: block;
+    width: 100%;
 }
 
 body {
@@ -70,4 +76,18 @@ article:nth-of-type(5) {
 article:nth-of-type(3),
 article:nth-of-type(4) {
     color: var(--clr-slate-dark);
+}
+
+figure {
+    width: 4.5rem;
+    aspect-ratio: 1 / 1;
+}
+
+.avatar {
+    border: solid 3px transparent;
+    border-radius: 50%;
+}
+
+.avatar--highlight {
+    border-color: var(--clr-purple-light);
 }
