@@ -91,3 +91,17 @@ figure {
 .avatar--highlight {
     border-color: var(--clr-purple-light);
 }
+
+.top {
+    margin-block-end: 1.5rem;
+
+    display: flex;
+    gap: 1.25rem;
+}
+
+@scope (.user-info) {
+    .name {
+        margin-block-end: .25rem;
+        font-weight: 700;
+    }
+}
