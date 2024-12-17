@@ -16,6 +16,10 @@ img {
     width: 100%;
 }
 
+p {
+    line-height: 1.6;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     min-height: 100vh;
@@ -105,7 +109,14 @@ figure {
 
 @scope (.user-info) {
     .name {
-        margin-block-end: .25rem;
         font-weight: 700;
+    }
+}
+
+@scope (.bottom) {
+    .testimonial-tagline {
+        margin-block-end: 1.5rem;
+        font-size: 1.75rem;
+        line-height: 1.2;
     }
 }
