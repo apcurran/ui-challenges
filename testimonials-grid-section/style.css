@@ -9,6 +9,9 @@
     --clr-purple-light: #c084fc;
     --clr-slate-mid: #475569;
     --clr-slate-dark: #1e293b;
+
+    --txt-clr-purple-light: #f3e8ff;
+    --txt-clr-purple-dark: #d8b4fe;
 }
 
 img {
@@ -48,6 +51,15 @@ article {
 
 .lifted-shadow {
     box-shadow: 16px 25px 20px -15px rgb(0, 0, 0, .12);
+}
+
+/* utility */
+.txt-clr-purple-dark {
+    color: var(--txt-clr-purple-dark);
+}
+
+.txt-clr-purple-light {
+    color: var(--txt-clr-purple-light);
 }
 
 article:nth-of-type(1) {
