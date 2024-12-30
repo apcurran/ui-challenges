@@ -12,6 +12,9 @@
 
     --txt-clr-purple-light: #faf5ff;
     --txt-clr-purple-dark: #e9d5ff;
+    --txt-clr-slate-light: #f1f5f9;
+    --txt-clr-slate-med: #cbd5e1;
+    --txt-clr-slate-dark-med: #475569;
 }
 
 img {
@@ -60,6 +63,19 @@ article {
 
 .txt-clr-purple-light {
     color: var(--txt-clr-purple-light);
+}
+
+.txt-clr-slate-med {
+    color: var(--txt-clr-slate-med);
+}
+
+.txt-clr-slate-light {
+    color: var(--txt-clr-slate-light);
+}
+
+.role.txt-clr-slate-dark-med,
+.testimonial-description.txt-clr-slate-dark-med {
+    color: var(--txt-clr-slate-dark-med);
 }
 
 article:nth-of-type(1) {
